@@ -77,7 +77,7 @@ export default class CreatePost extends Component {
 
                         <View style ={{height:RFValue(this.state.dropDownHeight)}}>
                             <DropDownPicker
-                            item = {[
+                            items = {[
                                 {label:"Image 1" , value : "image_1"},
                                 {label:"Image 2" , value : "image_2"},
                                 {label:"Image 3" , value : "image_3"},
